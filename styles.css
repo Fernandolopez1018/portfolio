@@ -1,0 +1,33 @@
+body {
+    background-color: lightblue;
+  }
+
+.pic{
+    height: 100%;
+    width: 100%;
+}
+.group{
+    display: flex;
+    flex-direction: column;
+
+
+}
+.item {
+    flex: 1;
+    margin: 10px;
+}
+
+
+/* Groups & Items  (Desktop) */
+
+@media all and (min-width: 800px) {
+
+
+  
+    .group {
+        display: flex;
+      flex-direction: row;
+
+    }
+  
+  }
