@@ -8,32 +8,40 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
+        <!--nav bar-->
+        <header>
+            <h1>Fernando Thinkful</h1>
+            <nav id="nav">
+                <ul id="menu">
+                    <li><a href="#">About me</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
         <!-- the main section is the first section of -->
-        <main>
-            <section class="group">
+        <div class="group">
             <h1 class="item">Fernando's Portfolio</h1>
-            <nav class="item">
+            <div id="socialmedia">
             
                     <ul>
-                        <li>Email fullstackfernando@gmail.com</li>
+                        
+                        <li>Email <br> fullstackfernando@gmail.com</li>
                         <li><a href="https://www.linkedin.com/in/fullstackfernando/">LinkedIn</a></li>
                         <li><a href="https://github.com/Fernandolopez1018">Github</a></li>  
                     </ul>
                 
-            </nav>
-            </section>
-        </main>
+                </div>
+        </div>
         <!-- the article section is the second section -->
-        <article class="group">
+        <div class="group">
              
                     <h2 class="item">I'm just a simple dude</h2>
-                    <img src="FERNANDO.jpg" class="pic item">
+                    <img src="FERNANDO.jpg" class="pic">
                     <br>
                     <h3 class="item">Located in Orlando</h3>
                    
 
-        </article>
+        </div>
         <div class="group">
                 <div >
                     <h4 class="item">Introduction</h4>
@@ -54,7 +62,7 @@
 
         </div>
         <!-- the footer section is the last section -->
-        <footer class="group">
+        <div class="group">
             <div class="item">
                 <h2>About me!</h2>
                 <p>
@@ -71,7 +79,42 @@
                 </p>
             </div>
 
-        </footer>
+        </div>
 
+        <!-- contact section HTML form-->
+        <h1>Contact Me</h1>
+        <form action="https://formspree.io/f/mqkgppon" method="POST">
+            <fieldset>
+                <br>
+                <label for="user-name">Your name:</label>
+                <br>
+                <input id="user-name" type="text" name="name" placeholder="name">
+                <br>
+                <br>
+                <label for="user-email">Your email:</label>
+                <br>
+                <input id="user-email" type="text" name="name">
+                <br>
+                <br>
+                <label for="user-number">Your number:</label>
+                <br>
+                <input id="user-number" type="text" name="name">
+
+                <h2>What service are you looking for</h2>
+                
+                <input name="service" type="checkbox" value="simple design">
+                    
+                <label for="simple design">I need a simple website</label>
+                <br>
+                <br>
+                <label for="form-message">Your message</label>
+                <br>
+                <br>
+                <textarea name="message" id="form-message" cols="30" rows="10"></textarea>
+                <br>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </fieldset>
+        </form>
 </body>
 </html>
