@@ -13,8 +13,8 @@
             <h1>Fernando Thinkful</h1>
             <nav id="nav">
                 <ul id="menu">
-                    <li><a href="#">About me</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#aboutme">About me</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </header>
@@ -62,7 +62,7 @@
 
         </div>
         <!-- the footer section is the last section -->
-        <div class="group">
+        <div class="group" id="aboutme">
             <div class="item">
                 <h2>About me!</h2>
                 <p>
@@ -82,8 +82,10 @@
         </div>
 
         <!-- contact section HTML form-->
-        <h1>Contact Me</h1>
-        <form action="https://formspree.io/f/mqkgppon" method="POST">
+        
+        <form id="contact" action="https://formspree.io/f/mqkgppon" method="POST">
+            <h1>Contact Me</h1> 
+
             <fieldset>
                 <br>
                 <label for="user-name">Your name:</label>
