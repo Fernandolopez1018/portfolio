@@ -17,6 +17,7 @@ body {
     margin: 10px;
     
 }
+
 h2.item {
   text-align: center;
 }
@@ -40,6 +41,20 @@ div ul{
 form {
   text-align: center;
 }
+/* project section */
+#projectssection{
+  color: white;
+  text-align: center;
+  background-color: #0B1C51;
+}
+
+#projectssection a{
+  color: palegoldenrod;
+}
+
+#projectssection a:hover{
+  color: greenyellow;
+}
 
 /* for nav */
 
@@ -57,6 +72,83 @@ header h1{
   text-align: center;
   margin: 0;
   padding-top: 20px;
+  font-size: 48px;
+}
+
+header nav ul{
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+  list-style: none;
+  padding-bottom: 20px;
+
+}
+
+header nav ul li a{
+  color: white;
+  text-decoration: none;
+  padding-right: 20px;
+  
+}
+
+header nav ul li:last-child a {
+  margin-right: 0;
+}
+
+
+header nav ul li a:hover {
+  /* Targets the change when a user hovers over the anchor tag 
+     (link) within the list items within the unordered list that 
+     is within the nav that is within the header. */
+  color: #bdbdbd;
+}
+
+
+/* Groups & Items  (Desktop) */
+
+@media all and (min-width: 800px) {
+
+
+    .pic{
+    
+      display: flex;
+      justify-content: center;
+      height: 300px;
+      width: 300px;
+    }
+    .group {
+        display: flex;
+      flex-direction: row;
+
+    }
+
+    /* for nav */
+    header{
+      display: flex;
+      padding-left: 0 30px;
+      justify-content: space-around;
+
+    }
+
+    header h1{
+      padding-top: 0;
+      margin: 14px 0;
+      font-size: 52px;
+
+    }
+
+    header nav{
+      padding-top: 8px;
+    }
+
+    /* for social links list*/
+    div ul{
+      flex-direction: column;
+      justify-content: space-around;
+    
+      padding-right: 50px;
+    }
+  }
   font-size: 48px;
 }
 
