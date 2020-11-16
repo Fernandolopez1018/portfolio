@@ -10,7 +10,7 @@
 <body>
         <!--nav bar-->
         <header>
-            <h1>Fernando Thinkful</h1>
+            <h1>Fernando's Portfolio</h1>
             <nav id="nav">
                 <ul id="menu">
                     <li><a href="#aboutme">About me</a></li>
@@ -20,7 +20,7 @@
         </header>
         <!-- the main section is the first section of -->
         <div class="group">
-            <h1 class="item">Fernando's Portfolio</h1>
+            <h1 class="item row1">Fernando's Portfolio</h1>
             <div id="socialmedia">
             
                     <ul>
@@ -35,8 +35,8 @@
         <!-- the article section is the second section -->
         <div class="group">
         
-                    <h2 class="item">I'm just a simple dude</h2>
-                    <img src="FERNANDO.jpg" class="pic" alt="handsome me">
+                    <h2 class="item row2">I'm just a simple dude</h2>
+                    <img src="FERNANDO.jpg" class="pic row3" alt="handsome me">
                     <br>
                     <h3 class="item">Located in Orlando</h3>
                 
@@ -46,7 +46,7 @@
                 <div >
                     <h4 class="item">Introduction</h4>
                     <br>
-                    <p class="item">
+                    <p class="item row4">
                         Hi, my name is Fernando, I've always been into computers! 
                         I built my first computer in middle school and have been a computer nerd ever since. 
                         I enjoy programming and want to make it my career from now on!
@@ -83,55 +83,51 @@
         <!--my projects section -->
         <div class="group" id="projectssection">
             <div class="item">
-                <h3>Quiz App</h3>
-                <p>In this quiz app project I used jquery and dom manipulation to make it. Along with some nice css styling and simple HTML code. 
-                    I enjoyed making this project because it taught me how to manipulate the dom, which is something really important to know how to do, so 
-                    that I could know how to work with React.
+                <h3>Demo 3</h3>
+                <p>For Demo 3 I wanted to show the client how great it looks when the different section of the hero section make the website look great (in the desktop view),
+                    I have made the footer and navigation a little different than the first and second demo also adding a great feeling to the website. 
+                    With this demo I also want you to see how a simple logo can also make a website look amazing.
 
                     
                 </p>
                 <ul>
-                    <ol>Jquery</ol>
+                    <ol>Animations</ol>
                     <ol>HTML</ol>
                     <ol>CSS</ol>
                 </ul>
-                <img src="http://via.placeholder.com/300" alt="">
-                <a href="https://fernandolopez1018.github.io/quizapp/" target="_blank" rel="noopener noreferrer"><h3>Live link</h3></a>
-                <br>
-                <a href="https://github.com/Fernandolopez1018/quizapp" target="_blank" rel="noopener noreferrer"><h3>Github Repo</h3></a>
+                <img src="demo3.jpg" alt="">
+                <a href="https://fernandolopez1018.github.io/demo3/" target="_blank" rel="noopener noreferrer"><h3>Live link</h3></a>
+                
             </div>
             <div class="item">
-                <h3>Bookmark App</h3>
-                <p>In order to make this project I had to make an API and used Postman to inspect request and response messages to the API. In this project I used 
-                    knowledge about request and response needed to make a server and/or database function with the frontend. I had a lot of fun in this project 
-                    and want to use this knowledge in future work and projects!
+                <h3>Demo 2</h3>
+                <p>This Demo is just a simple one page website that can be used as a basic landing page. Landing pages are used to get emails from interested customers, to show 
+                    a certain product, etc. I have included animations and responsiveness to this very basic and simple landing page.
                 </p>
                 <ul>
-                    <ol>Postman</ol>
-                    <ol>Express</ol>
-                    <ol>NodeJS</ol>
+                    <ol>Animations</ol>
+                    <ol>HTML</ol>
+                    <ol>CSS</ol>
                 </ul>
-                <img src="http://via.placeholder.com/300" alt="">
-                <a href="https://fernandolopez1018.github.io/Bookmark-App/" target="_blank" rel="noopener noreferrer"><h3>Live link</h3></a>
-                <br>
-                <a href="https://github.com/Fernandolopez1018/Bookmark-App" target="_blank" rel="noopener noreferrer"><h3>Github Repo</h3></a>
+                <img src="demo2.jpg" alt="">
+                <a href="https://fernandolopez1018.github.io/demo2/" target="_blank" rel="noopener noreferrer"><h3>Live link</h3></a>
+                
             </div>
             <div class="item">
-                <h3>Mern Website</h3>
+                <h3>Demo 1</h3>
                 <p>
-                    In this website I used a fullstack, which was MongoDB Atlas (for the database),
-                    express(to interconect middleware to nodejs), react library with the frontend(makes the site super fast since everything is done in js rather then HTML),
-                    and nodejs. I liked working with this stack and want to continue working with this stack to make better pages!!
+                    For this demo I wanted to introduce a moving images in the very first part of the website along with animated sections.
+                    As the client scrolls to the different sections of the website the sections are animated. I wanted to demostrate how
+                    a site can be customized depending on your needs with a navigation bar that is completely responsive.
                 </p>
                 <ul>
-                    <ol>NodeJS</ol>
-                    <ol>MongoDB</ol>
-                    <ol>React</ol>
+                    <ol>Animations</ol>
+                    <ol>HTML</ol>
+                    <ol>CSS</ol>
                 </ul>
-                <img src="http://via.placeholder.com/300" alt="">
-                <a href="https://fernandolopez1018.github.io/Mern-Website/" target="_blank" rel="noopener noreferrer"><h3>Live link</h3></a>
-                <br>
-                <a href="https://github.com/Fernandolopez1018/Mern-Website" target="_blank" rel="noopener noreferrer"><h3>Github Repo</h3></a>
+                <img src="demo1.jpg" alt="">
+                <a href="https://fernandolopez1018.github.io/demo1/" target="_blank" rel="noopener noreferrer"><h3>Live link</h3></a>
+                
             </div>
         </div>
         <!-- contact section HTML form-->
@@ -149,18 +145,23 @@
                 <br>
                 <label for="user-email">Your email:</label>
                 <br>
-                <input id="user-email" type="text" name="name">
+                <input id="user-email" type="text" name="name" placeholder="email">
                 <br>
                 <br>
                 <label for="user-number">Your number:</label>
                 <br>
-                <input id="user-number" type="text" name="name">
+                <input id="user-number" type="text" name="name" placeholder="number">
 
                 <h2>What service are you looking for</h2>
                 
                 <input id="simpledesign1" name="service" type="checkbox" value="simpledesign">
                     
                 <label for="simpledesign1">I need a simple website</label>
+                <br>
+                <br>
+                <input id="simpledesign1" name="service" type="checkbox" value="wordpresssite">
+                    
+                <label for="simpledesign1">I need a Wordpress Site</label>
                 <br>
                 <br>
                 <label for="form-message">Your message</label>
@@ -172,5 +173,10 @@
                 <button type="reset">Reset</button>
             </fieldset>
         </form>
+        <!-- gsap cdn-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
+        <!-- gsap script -->
+        <script src="gsap.js"></script>
 </body>
 </html>

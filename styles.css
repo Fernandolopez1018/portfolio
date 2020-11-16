@@ -27,6 +27,7 @@ h3.item{
 
 ol.item {
   text-align: center;
+  list-style: none;
 }
 
 div ul{
