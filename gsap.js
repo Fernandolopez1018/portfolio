@@ -2,7 +2,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 gsap.from(".row1", {
     duration: 3,
-    x: '100',
+    x: '40',
     ease: 'bounce',
     scrollTrigger: {
         trigger:".row1",
